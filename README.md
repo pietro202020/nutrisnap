@@ -41,17 +41,17 @@ NutriSnap to mobilna aplikacja, która umożliwia użytkownikowi analizę skład
 
 ### Frontend (Expo)
 
-cd app/mobile/app
-npm install
-npx expo start
+-cd app/mobile/app
+-npm install
+-npx expo start
 
 ### Backend
 
-cd api
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+-cd api
+-python -m venv .venv
+-source .venv/bin/activate
+-pip install -r requirements.txt
+-uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ### Grupa docelowa
 -Osoby prowadzące zdrowy styl życia
